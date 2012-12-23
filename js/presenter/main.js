@@ -55,7 +55,6 @@
 	//	'jquery-notify/jquery-notify',			/* enable these lines if to use them */
 	],function($, _, Backbone, mustache, Router) {
 		Router.init();
-		bootbox.alert("test");
 	});
 	/* using yepnope to load additional scripts if it is a tablet */
 	/*
