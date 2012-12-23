@@ -51,10 +51,11 @@
 		'mustache/mustache',
 		'presenter/router',
 		'bootstrap/bootstrap',
-	//	'bootbox/bootbox',           			/* enable these lines if to use them */
+		'bootbox/bootbox',           			/* enable these lines if to use them */
 	//	'jquery-notify/jquery-notify',			/* enable these lines if to use them */
 	],function($, _, Backbone, mustache, Router) {
 		Router.init();
+		bootbox.alert("test");
 	});
 	/* using yepnope to load additional scripts if it is a tablet */
 	/*
