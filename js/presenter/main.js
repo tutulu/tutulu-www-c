@@ -41,6 +41,9 @@
 			'jquery-notify/jquery-notify' : {
 				deps : ['jquery/jquery', 'jquery-ui/jquery-ui'],
 			},
+			'EyeCandyjs/eyecandy' : {
+				deps : ['jquery/jquery'],
+			},
 		},
 	});
 
@@ -53,6 +56,7 @@
 		'bootstrap/bootstrap',
 		'bootbox/bootbox',           			/* enable these lines if to use them */
 	//	'jquery-notify/jquery-notify',			/* enable these lines if to use them */
+		'EyeCandyjs/eyecandy',
 	],function($, _, Backbone, mustache, Router) {
 		Router.init();
 	});

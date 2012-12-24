@@ -1,0 +1,36 @@
+.eyecandy-grid {
+	border:1px solid #f1f2f3;
+}
+
+.eyecandy-small {	
+	width:99px;
+	height:99px;	
+	overflow:hidden;
+	display:inline-block;
+	background-color:brown;
+}
+
+.eyecandy-large {
+	width: 199px;
+	height:199px;
+	overflow:hidden;
+	display:inline-block;
+	background-color:#0044cc;
+}
+
+.eyecandy-column-thin {
+	display:inline-block;
+	width:99px;
+	float:left;
+}
+
+.eyecandy-column-fat {
+	display:inline-block;
+	float:left;
+}
+
+.eyecandy-row {
+	height:200px;
+	float:left;
+	width:100%;
+}
