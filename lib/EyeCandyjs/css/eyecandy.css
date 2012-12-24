@@ -22,12 +22,13 @@
 	display:inline-block;
 	width:99px;
 	float:left;
+	height:199px;
 }
 
 .eyecandy-column-fat {
 	display:inline-block;
 	float:left;
+	height:199px;
+	width:199px;	
 }
 
-.eyecandy-row {
-}
