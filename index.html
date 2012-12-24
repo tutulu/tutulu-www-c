@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang='UTF8'>
 	<head>
-		<title>Starter Template</title>
+		<title>Your source to anime</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="">
@@ -18,8 +18,9 @@
 		<!-- bootstrap -->
 		<style>
 		        body {
+				/*
 				padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
-		        }
+		        } 
 			/* overrides fontello icon-bar to retain bootstrap's icon-bar */
 			a.btn-navbar span.icon-bar::before {
 				content : '';
@@ -33,6 +34,7 @@
 
 		<!-- mine -->
 		<link href='css/style.css' rel='stylesheet'/>
+		<link href='css/home.css' rel='stylesheet'/>
 
 		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 		<!--[if lt IE 9]>
@@ -41,34 +43,43 @@
 
 	</head>
 	<body>
-		<div class="navbar navbar-inverse navbar-fixed-top">
-	        	<div class="navbar-inner">
-		   		<div class="container">
-		  			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-						<span class="icon-bar"></span>
-					    	<span class="icon-bar"></span>
-					    	<span class="icon-bar"></span>
-					</a>
-		  			<a class="brand" href="#">Project name</a>
-					<div class="nav-collapse collapse">
-		    			<ul class="nav">
-				      		<li><a href="#">Home</a></li>
-				      		<li><a href="#!/about">About</a></li>
-				      		<li><a href="#!/contact">Contact</a></li>
-				    	</ul>
-					</div><!--/.nav-collapse -->
-				</div>
-			</div>
-		</div>
-
 		<div id='body'>
 
 		</div>
+		<div class='container-fluid'>
+		<div class="navbar row-fluid">
+			<div class='span3'>
+			</div>
+			<div class='span8'>
+				<div class="navbar-inner-alt">
+					<div class='navbar-container'>	
+						<div class='searchBar'>
+							<input type='text' placeholder='Search'/>
+						</div>
+						<div>
+						<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</a>
+						<a class="brand" href="#">myComicList</a>
+						<div class="nav-collapse collapse">
+							<ul class="nav">
+								<li><a href="#">Home</a></li>
+								<li><a href='#!/list'>Anime list</a></li>
+								<li><a href="#!/about">About</a></li>
+								<li><a href="#!/contact">Contact</a></li>
+							</ul>
+						</div><!--/.nav-collapse -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+
 	    	</div> <!-- /container -->
 
-		<div id='footer'>
-
-		</div>
 		<!-- to make page load faster -->
 		<!-- require js -->
 		<script src='lib/requirejs/require.js' type='text/javascript' data-main='js/presenter/main.js'></script>

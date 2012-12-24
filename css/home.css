@@ -1,0 +1,12 @@
+.home-tab .span3 {
+	min-height: 800px;
+}
+.home-tab .span9 {
+	min-height: 800px;
+	background-color: white;
+}
+
+body  {
+	background-color: #f1f2f3;
+}
+

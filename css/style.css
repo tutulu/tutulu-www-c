@@ -1,9 +1,16 @@
 /* min height set to push the footer down */
 div#body {
-	min-height: 500px;
 	margin-bottom:10px;
 }
+.navbar {
+	position : fixed;
+	bottom:0px;
+}
 
+.navbar input {
+	width: 380px;
+	font-size:18px;
+}
 
 
 
